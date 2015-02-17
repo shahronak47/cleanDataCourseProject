@@ -1,12 +1,12 @@
-## Codebook for final_set
+# Codebook for final_set
 
 
-#Subject 2
+##Subject 
 	Unique identifier for each subject for which measurements were made
 	Unit: Integer
 	1..30 Each number represents a different subject
 
-#Activity 
+##Activity 
 	Description of the activity which took place
 	Unit: character string
 	Possible values are:
@@ -18,7 +18,7 @@
 	WALKING_DOWNSTAIRS
 	WALKING_UPSTAIRS
 
-#MeasurementName 
+##MeasurementName 
 	Description of the measurement that happened
 	Unit: character string
 
@@ -122,7 +122,7 @@ angle(X,gravityMean)
 angle(Y,gravityMean)                 
 angle(Z,gravityMean)                
 
-#MeanOfMeasurement 16
+##MeanOfMeasurement 
 	The mean of the measurements of all observations of the original set
 	Units: time (prefix t-), frequency (prefix f-), angle (prefix angle-)
 	-0.9976661..0.9745087
